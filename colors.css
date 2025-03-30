@@ -1,0 +1,106 @@
+:root {
+  --brand-fill: rgb(24, 91, 157);
+}
+  :root .lightMode {
+    --base-bgPrimary: rgb(255, 255, 255);
+    --base-bgSecondary: rgb(233, 229, 226);
+    --base-txtPrimary: rgb(0, 0, 0);
+    --base-txtSecondary: rgb(102, 102, 102);
+
+    --emphasis-txt: rgb(20, 75, 255);
+
+    --accent-txt: rgb(27, 114, 121);
+    --accent-fill: rgb(221,255,244);
+    --accent-onFill: rgb(23,31,45);
+
+    --brand-txt: rgb(24, 91, 157);
+    --brand-fill: rgb(24, 91, 157);
+    --brand-onFill: rgb(255,255,255);
+
+    --info-txt: rgb(126, 42, 252);
+    --info-fill: rgb(202, 177, 245);
+    --info-onFill: rgb(13, 13, 13);
+
+    --success-txt: rgb(36, 105, 53);
+    --success-fill: rgb(32, 134, 92);
+    --success-onFill: rgb(255, 255, 255);
+
+    --warning-txt: rgb(159, 74, 40);
+    --warning-fill: rgb(255, 148, 0);
+    --warning-onFill: rgb(13, 13, 13);
+
+    --error-txt: rgb(194, 34, 34);
+    --error-fill: rgb(209, 19, 18);
+    --error-onFill: rgb(255, 255, 255);
+
+    --surface-base: rgb(248, 248, 248);
+    --surface-overlay: rgb(255, 255, 255);
+
+    --neutral-0: rgb(255, 255, 255);
+    --neutral-100: rgb(241, 241, 241);
+    --neutral-200: rgb(212, 212, 212);
+    --neutral-300: rgb(171, 171, 171);
+    --neutral-400: rgb(145, 145, 145);
+    --neutral-500: rgb(124, 124, 124);
+    --neutral-600: rgb(107, 107, 107);
+    --neutral-700: rgb(83, 83, 83);
+    --neutral-800: rgb(60, 60, 60);
+    --neutral-900: rgb(38, 38, 38);
+    --neutral-1000: rgb(0, 0, 0);
+
+   
+  }
+  :root .lightMode .colorBoxBrand {
+    --surface-base: var(--brand-fill);
+    --surface-overlay: var(--brand-fill);
+    --base-txtPrimary: var(--brand-onFill);
+    --base-txtSecondary:rgb(209,209,209);
+  }
+  :root .darkMode {
+    --base-bgPrimary: rgb(1, 1, 1);
+    --base-bgSecondary: rgb(51, 51, 51);
+    --base-txtPrimary: rgb(240, 240, 240);
+    --base-txtSecondary: rgb(155, 155, 155);
+
+    --emphasis-txt: rgb(100, 210, 255);
+
+    --accent-txt: rgb(255, 242, 182);
+    --accent-fill: rgb(221,255,244);
+    --accent-onFill: rgb(23,31,45);
+
+    --brand-txt: rgb(0, 199, 212);
+    
+    --brand-fill: rgb(24, 91, 157);
+    --brand-onFill: rgb(255,255,255);
+
+    --info-txt: rgb(179, 143, 241);
+    --info-fill: rgb(202, 177, 245);
+    --info-onFill: rgb(13,13,13);
+
+    --success-txt: rgb(48, 209, 88);
+    --success-fill: rgb(32, 134, 92);
+    --success-onFill: rgb(255, 255, 255);
+
+    --warning-txt: rgb(255, 159, 10);
+    --warning-fill: rgb(255, 148, 0);
+    --warning-onFill: rgb(13,13,13);
+
+    --error-txt: rgb(223, 83, 73);
+    --error-fill: rgb(209, 19, 18);
+    --error-onFill: rgb(255, 255, 255);
+
+    --surface-base: rgb(0, 0, 0);
+    --surface-overlay: rgb(25,34,47);
+
+    --neutral-0: rgb(0, 0, 0);
+    --neutral-100: rgb(38, 38, 38);
+    --neutral-200: rgb(60, 60, 60);
+    --neutral-300: rgb(83, 83, 83);
+    --neutral-400: rgb(107, 107, 107);
+    --neutral-500: rgb(124, 124, 124);
+    --neutral-600: rgb(145, 145, 145);
+    --neutral-700: rgb(171, 171, 171);
+    --neutral-800: rgb(212, 212, 212);
+    --neutral-900: rgb(241, 241, 241);
+    --neutral-1000: rgb(255, 255, 255);
+  }
